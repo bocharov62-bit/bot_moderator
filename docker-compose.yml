@@ -1,0 +1,16 @@
+services:
+  moderator-bot:
+    build: .
+    container_name: telegram-moderator-bot
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs
+    restart: unless-stopped
+    networks:
+      - bot-network
+
+networks:
+  bot-network:
+    driver: bridge
+

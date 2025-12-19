@@ -1,0 +1,63 @@
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Виртуальные окружения
+.venv/
+venv/
+ENV/
+env/
+
+# Логи
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Резервные копии
+*.backup
+*.bak
+*~
+
+# Тестовые файлы (опционально - можно оставить для других разработчиков)
+# test_bot.py
+# check_env.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Временные файлы
+*.tmp
+*.temp

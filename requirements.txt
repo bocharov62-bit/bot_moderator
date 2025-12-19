@@ -1,0 +1,8 @@
+# Зависимости для Telegram-бота модератора
+# Установка: pip install -r requirements.txt
+
+aiogram==3.7.0
+aiomysql==0.2.0
+python-dotenv==1.0.0
+aiofiles==23.2.1
+

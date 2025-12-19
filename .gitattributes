@@ -1,0 +1,40 @@
+# Автоматическое определение типа файлов
+* text=auto
+
+# Python файлы
+*.py text eol=lf
+*.pyw text eol=lf
+
+# Конфигурационные файлы
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+
+# Shell скрипты
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# SQL файлы
+*.sql text eol=lf
+
+# Markdown файлы
+*.md text eol=lf
+
+# Docker файлы
+Dockerfile text eol=lf
+.dockerignore text eol=lf
+docker-compose.yml text eol=lf
+
+# Игнорировать изменения в окончаниях строк для Windows
+*.bat text eol=crlf
+
+# Бинарные файлы
+*.pyc binary
+*.pyo binary
+*.pyd binary
+*.so binary
+*.egg binary
+
